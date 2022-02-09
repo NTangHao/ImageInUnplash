@@ -1,0 +1,83 @@
+/*Google font*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Luxurious+Roman&family=Merriweather:wght@300&family=Roboto+Slab&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Roboto Slab, sans-serif;
+    color: #EEE6CE;
+    background-color: #313552;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%239C92AC' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+
+}
+
+h1 {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+/*Loader*/
+.loader {
+    position: fixed;
+    inset: 0; /*top right bottom left*/
+
+}
+
+.loader img {
+
+    position: fixed;
+    /*dung margin auto la xua roi*/
+    top: 50%;
+    left: 50%; /*day chi la center dinh cua img*/
+    /*muon center chinh giua img ta dung transform : translate*/
+    transform: translate(-50%, -50%); /*HAY VCL*/
+
+
+}
+
+/*img-container*/
+.image-container{
+    margin: 10px 20%;
+
+}
+.image-container img{
+    width: 100%;
+    margin-top: 7px;
+}
+
+/*Media query mobile*/
+@media screen and (max-width: 1000px) {
+    h1{
+        font-size: 30px;
+    }
+    .image-container{
+        margin: 10px ;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
